@@ -13,7 +13,7 @@ def view_article(request, article_id) :
 def all_articles(request) :
     all_articles = Article.objects.all()
     context = {
-        "article": all_articles
+        "articles": all_articles
         
         }
 
